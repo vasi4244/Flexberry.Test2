@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISTest_2Отдел",
+  "modelName": "i-i-s-test-2-отдел",
+  "className": "Отдел",
+  "nameSpace": "IIS.Test_2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодОтдела",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОтделE",
+      "modelName": "i-i-s-test-2-отдел",
+      "attrs": [
+        {
+          "name": "кодОтдела",
+          "caption": "Код отдела",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОтделL",
+      "modelName": "i-i-s-test-2-отдел",
+      "attrs": [
+        {
+          "name": "кодОтдела",
+          "caption": "Код отдела",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Отдел",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

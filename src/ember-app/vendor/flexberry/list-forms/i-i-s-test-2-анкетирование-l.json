@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-test-2-анкетирование-e",
+  "editForm": "i-i-s-test-2-анкетирование-e",
+  "external": false,
+  "caption": "Анкетирование",
+  "name": "IISTest_2АнкетированиеL",
+  "className": "АнкетированиеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-2-анкетирование",
+      "modelProjection": "АнкетированиеL"
+    }
+  ]
+}

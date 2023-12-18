@@ -1,0 +1,76 @@
+﻿{
+  "name": "IISTest_2Анкетирование",
+  "modelName": "i-i-s-test-2-анкетирование",
+  "className": "Анкетирование",
+  "nameSpace": "IIS.Test_2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "Now",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "опрос",
+      "relatedTo": "i-i-s-test-2-опрос",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "список",
+      "relatedTo": "i-i-s-test-2-список",
+      "inverse": "анкетирование"
+    }
+  ],
+  "projections": [
+    {
+      "name": "АнкетированиеE",
+      "modelName": "i-i-s-test-2-анкетирование",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "СписокE",
+          "caption": "Список",
+          "name": "список",
+          "relatedTo": "i-i-s-test-2-список",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "АнкетированиеL",
+      "modelName": "i-i-s-test-2-анкетирование",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

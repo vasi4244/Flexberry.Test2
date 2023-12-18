@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Анкетирование",
+  "name": "IISTest_2АнкетированиеE",
+  "className": "АнкетированиеE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-2-анкетирование",
+      "modelProjection": "АнкетированиеE"
+    }
+  ]
+}

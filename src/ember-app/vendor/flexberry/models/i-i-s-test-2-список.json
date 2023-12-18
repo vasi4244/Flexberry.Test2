@@ -1,0 +1,38 @@
+﻿{
+  "name": "IISTest_2Список",
+  "modelName": "i-i-s-test-2-список",
+  "className": "Список",
+  "nameSpace": "IIS.Test_2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудники",
+      "relatedTo": "i-i-s-test-2-сотрудники",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "анкетирование",
+      "relatedTo": "i-i-s-test-2-анкетирование",
+      "inverse": "список"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СписокE",
+      "modelName": "i-i-s-test-2-список",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

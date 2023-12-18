@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Опрос",
+  "name": "IISTest_2ОпросE",
+  "className": "ОпросE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-2-опрос",
+      "modelProjection": "ОпросE"
+    }
+  ]
+}

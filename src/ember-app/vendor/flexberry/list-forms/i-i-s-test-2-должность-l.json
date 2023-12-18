@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-test-2-должность-e",
+  "editForm": "i-i-s-test-2-должность-e",
+  "external": false,
+  "caption": "Должность",
+  "name": "IISTest_2ДолжностьL",
+  "className": "ДолжностьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test-2-должность",
+      "modelProjection": "ДолжностьL"
+    }
+  ]
+}

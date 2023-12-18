@@ -1,0 +1,59 @@
+﻿{
+  "name": "IISTest_2НастройкаОпр",
+  "modelName": "i-i-s-test-2-настройка-опр",
+  "className": "НастройкаОпр",
+  "nameSpace": "IIS.Test_2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "опрос",
+      "relatedTo": "i-i-s-test-2-опрос",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудники",
+      "relatedTo": "i-i-s-test-2-сотрудники",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "содержание",
+      "relatedTo": "i-i-s-test-2-содержание",
+      "inverse": "настройкаОпр"
+    }
+  ],
+  "projections": [
+    {
+      "name": "НастройкаОпрE",
+      "modelName": "i-i-s-test-2-настройка-опр",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "СодержаниеE",
+          "caption": "Содержание",
+          "name": "содержание",
+          "relatedTo": "i-i-s-test-2-содержание",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "НастройкаОпрL",
+      "modelName": "i-i-s-test-2-настройка-опр",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "Test_2",
+  "applicationTitle": "Test_2",
+  "items": [
+    {
+      "link": null,
+      "menuName": "test-2",
+      "caption": "Test_2",
+      "title": "Test_2",
+      "children": [
+        {
+          "link": "i-i-s-test-2-анкетирование-l",
+          "menuName": null,
+          "caption": "Анкетирование",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test-2-опрос-l",
+          "menuName": null,
+          "caption": "Опрос",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test-2-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test-2-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test-2-настройка-опр-l",
+          "menuName": null,
+          "caption": "Настройка опр",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test-2-отдел-l",
+          "menuName": null,
+          "caption": "Отдел",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

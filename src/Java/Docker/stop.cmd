@@ -1,0 +1,1 @@
+docker-compose -p test_2-java down
